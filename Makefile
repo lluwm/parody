@@ -6,7 +6,8 @@ TARGET = parody
 OBJS = 	./src/parody.o \
 		./src/index.o \
 		./src/btree.o \
-		./src/key.o
+		./src/key.o \
+		./src/node.o
 
 all: $(TARGET)
 
